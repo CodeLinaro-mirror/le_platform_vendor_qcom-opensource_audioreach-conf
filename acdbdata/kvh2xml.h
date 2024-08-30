@@ -177,6 +177,8 @@ enum Key_DeviceRX {
     ULTRASOUND_RX  = 0xA200000A, /**< @h2xmle_name {ULTRASOUND_RX}*/
     ULTRASOUND_RX_DEDICATED = 0xA200000B, /**< @h2xmle_name {ULTRASOUND_RX_DEDICATED}*/
     DUMMY_RX       = 0xA200000C,   /**< @h2xmle_name {Dummy_Rx}*/
+    SPEAKER_TDM    = 0xA200000D, /**< @h2xmle_name {Speaker_TDM} @h2xmle_description {Subgraph for TDM backend for speaker}*/
+    SPEAKER_I2S    = 0xA200000E, /**< @h2xmle_name {Speaker_I2S} @h2xmle_description {Subgraph for I2S backend for speaker}*/
 };
 
 /**
@@ -201,6 +203,8 @@ enum Key_DeviceTX {
      CPS_TX          = 0xA300000E, /**< @h2xmle_name {CPS_TX} */
      CPS2_TX         = 0xA300000F, /**< @h2xmle_name {CPS2_TX} */
      DUMMY_TX        = 0xA3000010, /**< @h2xmle_name {Dummy_Tx}*/
+     SPEAKERMIC_TDM  = 0xA3000011, /**< @h2xmle_name {Speakermic_TDM} @h2xmle_description {Speaker mic device for TDM Backend.}*/
+     SPEAKERMIC_I2S  = 0xA3000012, /**< @h2xmle_name {Speakermic_I2S} @h2xmle_description {Speaker mic device for I2S Backend.}*/
 };
 
 /**
