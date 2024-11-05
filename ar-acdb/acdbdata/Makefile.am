@@ -20,4 +20,4 @@ lib_LTLIBRARIES = libacdbdata.la
 libacdbdata_la_CC = @CC@
 libacdbdata_la_SOURCES = $(acdbdata_sources)
 libacdbdata_la_CFLAGS = $(AM_CFLAGS)
-libacdbdata_la_LDFLAGS = -shared -avoid-version
+libacdbdata_la_LDFLAGS = -shared -version-number @LT_VERSION_NUMBER@
