@@ -179,6 +179,7 @@ enum Key_DeviceRX {
     DUMMY_RX       = 0xA200000C,   /**< @h2xmle_name {Dummy_Rx}*/
     SPEAKER_TDM    = 0xA200000D, /**< @h2xmle_name {Speaker_TDM} @h2xmle_description {Subgraph for TDM backend for speaker}*/
     SPEAKER_I2S    = 0xA200000E, /**< @h2xmle_name {Speaker_I2S} @h2xmle_description {Subgraph for I2S backend for speaker}*/
+    DP_RX          = 0xA2000013, /**< @h2xmle_name {DP_RX} @h2xmle_description {Subgraph for eDP backend for DISPLAY-PORT}*/
 };
 
 /**
