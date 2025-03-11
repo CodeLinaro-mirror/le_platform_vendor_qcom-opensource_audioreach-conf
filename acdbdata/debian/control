@@ -11,6 +11,8 @@ Homepage: https://git.codelinaro.org/clo/le/platform/vendor/qcom-opensource/audi
 Package: qcom-kvh2xml-dev
 Section: libdevel
 Architecture: arm64
+Replaces: kvh2xml-dev
+Breaks: kvh2xml-dev
 Depends:
  ${misc:Depends},
 Description: Qualcomm kvh2xml audio stack development headers

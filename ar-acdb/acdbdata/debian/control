@@ -12,5 +12,7 @@ Homepage: https://git.codelinaro.org/clo/le/platform/vendor/qcom-opensource/audi
 Package: qcom-acdbdata
 Section: libdevel
 Architecture: arm64
+Replaces: libacdbdata0
+Breaks: libacdbdata0
 Description: Qualcomm acdbdata audio stack development headers
  Headers-only package.
