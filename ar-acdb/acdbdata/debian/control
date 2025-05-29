@@ -6,6 +6,7 @@ Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
  qcom-kvh2xml-dev,
+ pkgconf,
 Standards-Version: 4.6.2
 Homepage: https://git.codelinaro.org/clo/le/platform/vendor/qcom-opensource/audioreach-conf
 
