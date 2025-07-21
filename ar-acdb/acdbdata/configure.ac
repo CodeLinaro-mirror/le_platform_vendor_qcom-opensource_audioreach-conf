@@ -34,15 +34,17 @@ AC_ARG_WITH([basemachine],
 AC_MSG_RESULT([$machine_selected])
 AC_SUBST([MACHINE_ENABLED],[$machine_selected])
 
-# Checks for libraries
-PKG_CHECK_MODULES([MMHEADERS], [kvh2xml])
-AC_SUBST([MMHEADERS_CFLAGS])
-
 AC_ARG_WITH([openwrt],
     AS_HELP_STRING([use openwrt (default is no)]),
     [with_openwrt=$withval],
     [with_openwrt=no])
 AM_CONDITIONAL([BUILDSYSTEM_OPENWRT], [test "x${with_openwrt}" = "xyes"])
+
+# Checks for libraries
+if (test "x${with_openwrt}" = "xno"); then
+PKG_CHECK_MODULES([MMHEADERS], [kvh2xml])
+AC_SUBST([MMHEADERS_CFLAGS])
+fi
 
 AC_CONFIG_FILES([ Makefile acdbdata.pc ])
 AC_OUTPUT
