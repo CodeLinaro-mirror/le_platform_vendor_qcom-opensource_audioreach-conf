@@ -1,3 +1,17 @@
+qcom-acdbdata (1.0.1) unstable; urgency=low
+
+  * Fix concurrent playback and recording for qcs8300.
+  * Updated package control file metadata.
+  * Import new XMLs for RB8 and add initial acdb files for RB4.
+  * Rename files to align with RB4 model naming.
+  * Add PCM_Record instance for qcs9075.
+  * Add pkg-config as a dependency.
+  * Update kvh2xml tool version.
+  * Update I2S sink configuration for qcs8275 and qcs9075.
+  * Update EC path graph connections for qcs8275 and qcs9075.
+
+ -- Tejas Vijay Kanfade <tkanfade@qti.qualcomm.com>  Thu, 24 Jul 2025 23:25:45 -0700
+
 qcom-acdbdata (1.0.0) unstable; urgency=low
 
   * Initial release.
