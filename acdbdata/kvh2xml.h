@@ -1,6 +1,7 @@
 /*
- * Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
- * SPDX-License-Identifier: BSD-3-Clause-Clear
+ * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+ * All Rights Reserved.
+ *
  *
  * kvh2xml.h
  *
@@ -79,6 +80,7 @@ enum AllKeyIds{
     USB_VENDOR_ID               = 0xE6000000,   /**< @h2xmle_name{USB_Vendor_Id} */
     TAG_KEY_ULTRASOUND_GAIN     = 0xE7000000,   /**< @h2xmle_name{UltrasoundGain} */
     PROXY_RX_TYPE               = 0xE7010000,   /**< @h2xmle_name{ProxyRxType} */
+    MMA_MODEL_TYPE              = 0xE7030000,   /**< @h2xmle_name{MMA_MODEL_TYPE} */
 };
 
 
@@ -254,6 +256,7 @@ enum Key_Values_Channels {
     CHANNELS_14     = 14,   /**< @h2xmle_name {CHS_14}*/
     CHANNELS_15     = 15,   /**< @h2xmle_name {CHS_15}*/
     CHANNELS_16     = 16,   /**< @h2xmle_name {CHS_16}*/
+    CHANNELS_32     = 32,   /**< @h2xmle_name {CHS_32}*/
 };
 
 /**
@@ -834,6 +837,16 @@ enum Key_Values_ProxyRxType {
 };
 
 /**
+    @h2xmlk_key         {MMA_MODEL_TYPE}
+    @h2xmlk_description {Key for audio model type of MMA}
+    @range              {0xE7030001..0xE703FFFF}
+*/
+enum Key_Values_MMA_MODEL_TYPE {
+    MMA_NVD = 0xE7030001,   /**< @h2xmle_name {MMA_NVD} @h2xmle_description {Value to indicate NVD model being used in MMA usecase}*/
+    MMA_VAD = 0xE7030002,   /**< @h2xmle_name {MMA_VAD} @h2xmle_description {Value to indicate VAD model being used in MMA usecase}*/
+};
+
+/**
     @h2xmlk_gkeys
     @h2xmlk_description {Graph Keys}
 */
@@ -874,6 +887,7 @@ enum Cal_Keys {
     ck_HAPTICS_VI_Map              = HAPTICS_PRO_VI_MAP,
     ck_HAPTICS_Dev_Map             = HAPTICS_PRO_DEV_MAP,
     ck_USB_Vendor_Id               = USB_VENDOR_ID,
+    ck_MMA_MODEL_TYPE              = MMA_MODEL_TYPE,
 };
 
 
@@ -965,6 +979,8 @@ enum Tag_Definitions {
     TAG_TONE_RENDERER_MODULE        = 0xC0000051, /**< @h2xmle_name {"tone_renderer_module"} @h2xmle_description {this tag is used to identify the new module - ToneRenderer so miid can be queried from HLOS} */
     TAG_MODULE_ASR                  = 0xC0000057, /**< @h2xmle_name {"module_asr"} @h2xmle_description {Tag to be used to identify the MIID of ASR module} */
     MODULE_SOUND_DOSE               = 0xC000005C, /**< @h2xmle_name {"module_sound_dose"} @h2xmle_description {Module computes momentary exposure values and report for the SoundDose Feature.}  */
+    TAG_MODULE_WNR                  = 0xC0000063, /**< @h2xmle_name {"module_wnr"} @h2xmle_description {Tag to be used to identify the MIID of WNR module} */
+    TAG_MODULE_SDZ                  = 0xC0000064, /**< @h2xmle_name {"module_sdz"} @h2xmle_description {Tag to be used to identify the MIID of speaker diarization module} */
 };
 typedef enum Tag_Definitions Tag_Definitions;
 
