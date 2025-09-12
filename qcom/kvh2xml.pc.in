@@ -3,7 +3,7 @@ exec_prefix=@exec_prefix@
 libdir=@libdir@
 includedir=@includedir@
 
-Name: k2h2xml
+Name: kvh2xml
 Description: kvh2xml for Audio-Reach
 Version: @VERSION@
 Libs: -L${libdir}

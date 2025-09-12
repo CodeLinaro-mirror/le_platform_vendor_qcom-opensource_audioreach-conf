@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
+ * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
  * SPDX-License-Identifier: BSD-3-Clause-Clear
  *
  * kvh2xml.h
@@ -87,6 +87,11 @@ enum AllKeyIds{
     USB_VENDOR_ID         = 0xE6000000,    /**< @h2xmle_name{USB_Vendor_Id} */
     TAG_KEY_ULTRASOUND_GAIN = 0xE7000000,   /**< @h2xmle_name{UltrasoundGain} */
     PROXY_RX_TYPE         = 0xE7010000,   /**< @h2xmle_name{ProxyRxType} */
+    ROUTE_ID              = 0xE7020000,   /**< @h2xmle_name{RouteId} */
+    MMA_MODEL_TYPE        = 0xE7030000,   /**< @h2xmle_name{MMA_MODEL_TYPE} */
+    ROUTE_ACTION          = 0xE7040000,   /**< @h2xmle_name{ROUTE_ACTION} */
+    OFFLOAD_PROCESSOR     = 0xE7060000,   /**< @h2xmle_name{OFFLOAD_PROCESSOR} */
+    VMID                  = 0xFF000000,   /**< @h2xmle_name{VMID}*/ /*hack need to change ID*/
 };
 
 /**
