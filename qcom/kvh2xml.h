@@ -67,7 +67,7 @@ enum AllKeyIds{
     FNB                         = 0xDA000000,   /**< @h2xmle_name{FNB} */
     SUMX                        = 0xDB000000,   /**< @h2xmle_name{SUMX} */
     AVC                         = 0xDC000000,   /**< @h2xmle_name{AVC} */
-    VMID                        = 0xDD000000,   /**< @h2xmle_name{VMID}*/
+    VMID                        = 0xDD000000,   /**< @h2xmle_name{VMID} */
     TAG_KEY_DTMF_SWITCH         = 0xDE000000,   /**< @h2xmle_name{Dtmf} */
     TAG_KEY_DTMF_GEN_TONE       = 0xDF000000,   /**< @h2xmle_name{Dtmf_Gen_KeyTone} */
     TAG_KEY_SLOT_MASK           = 0xE0000000,   /**< @h2xmle_name{SlotMask} */
@@ -179,6 +179,8 @@ enum Key_Values_DeviceTX {
     I2S_MIC_TOP             = 0xA3000013,   /**< @h2xmle_name {I2S_MIC_TOP} @h2xmle_description {Device subgraph for Top DMICS connected via I2S for soundbar.}*/
     EXTERNAL_MIC_LINE_IN    = 0xA3000014,   /**< @h2xmle_name {EXTERNAL_MIC_LINE_IN} @h2xmle_description {Device subgraph for External mic used as line in interface. }*/
     HFP_TX                  = 0xA3000015,   /**< @h2xmle_name {HFP_TX} @h2xmle_description {two pairs of SCO links are needed, so need to add HFP TX}*/
+    ADC                     = 0xA3000016,   /**< @h2xmle_name {ADC} @h2xmle_description {Analog to Digital input device }*/
+    A2B_MIC                 = 0xA3000017,   /**< @h2xmle_name {A2B_MIC} @h2xmle_description {audio bus input device}*/
 };
 
 /**
@@ -238,8 +240,8 @@ enum Key_Values_BitWidth {
     @h2xmlk_description {Pause}
 */
 enum Key_Values_Pause {
-    PAUSE_OFF = 0,    /**< @h2xmle_name {Off}*/
-    PAUSE_ON  = 1,    /**< @h2xmle_name {On}*/
+    PAUSE_OFF   = 0,    /**< @h2xmle_name {Off}*/
+    PAUSE_ON    = 1,    /**< @h2xmle_name {On}*/
 };
 
 /**
@@ -505,6 +507,7 @@ enum Key_Values_BtFormat {
     AAC_ABR         = 0xB5000006,   /**< @h2xmle_name {AAC_ABR}*/
     APTX_AD_QLEA    = 0xB5000007,   /**< @h2xmle_name {APTX_AD_QLEA}*/
     APTX_AD_R4      = 0xB5000008,   /**< @h2xmle_name {APTX_AD_R4}*/
+    APTX_AD_R4_V2   = 0xB5000009,   /**< @h2xmle_name {APTX_AD_R4_V2} @h2xmle_description {New codec format for BT}*/
 };
 
 /**
