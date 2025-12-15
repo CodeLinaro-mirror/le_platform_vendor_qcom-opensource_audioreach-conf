@@ -70,6 +70,18 @@
     </pcm-device>
 
     <pcm-device>
+        <id>103</id>
+        <name>PCM103</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>0</playback>
+            <capture>1</capture>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
         <id>104</id>
         <name>PCM104</name>
         <pcm_plugin>
