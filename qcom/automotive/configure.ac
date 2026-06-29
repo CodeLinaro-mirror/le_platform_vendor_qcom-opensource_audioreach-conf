@@ -24,17 +24,17 @@ AC_PROG_MAKE_SET
 PKG_PROG_PKG_CONFIG
 
 # Check for platform
-AC_ARG_WITH([sa8797],
-    AS_HELP_STRING([--with-sa8797], [Enable sa8797 support]))
+AC_ARG_WITH([gen5],
+    AS_HELP_STRING([--with-gen5], [Enable gen5 support]))
 
 # Define conditional for automotive support
-AM_CONDITIONAL([SA8797], [test "x$with_sa8797" = "xyes"])
+AM_CONDITIONAL([gen5], [test "x$with_gen5" = "xyes"])
 
 AC_CONFIG_FILES([Makefile])
 
-# Only generate sa8797 files if --with-sa8797 is specified
-AS_IF([test "x$with_sa8797" = "xyes"], [
-    AC_CONFIG_FILES([tinyalsa/sa8797/config.pc])
+# Only generate gen5 files if --with-gen5 is specified
+AS_IF([test "x$with_gen5" = "xyes"], [
+    AC_CONFIG_FILES([tinyalsa/gen5/config.pc])
 ])
 
 AC_OUTPUT
