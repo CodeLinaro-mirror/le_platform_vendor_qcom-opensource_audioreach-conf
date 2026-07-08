@@ -119,6 +119,21 @@ enum Key_Values_StreamRX {
     INCALL_MUSIC_PLUS               = 0xA100001A,   /**< @h2xmle_name {Incall_Music_Plus}*/
     INCALL_MUSIC_COMPRESS_UPLINK    = 0xA100001B,   /**< @h2xmle_name {Incall_Music_Compress_Uplink}*/
     INCALL_MUSIC_COMPRESS_DOWNLINK  = 0xA100001C,   /**< @h2xmle_name {Incall_Music_Compress_Downlink}*/
+    BUS00_MEDIA                     = 0xA100F015,   /**< @h2xmle_name {BUS00_Media}*/
+    BUS01_SYS_NOTIFICATION          = 0xA100F016,   /**< @h2xmle_name {BUS01_Sys_Notification}*/
+    BUS02_NAV_GUIDANCE              = 0xA100F017,   /**< @h2xmle_name {BUS02_Nav_Guidance}*/
+    BUS03_PHONE                     = 0xA100F018,   /**< @h2xmle_name {BUS03_Phone}*/
+    BUS08_FRONT_PASSENGER           = 0xA100F019,   /**< @h2xmle_name {BUS08_Front_Passenger}*/
+    BUS16_REAR_SEAT                 = 0xA100F01A,   /**< @h2xmle_name {BUS16_Rear_Seat}*/
+    PCM_RX_ICC_LOOPBACK             = 0xA100F01B,   /**< @h2xmle_name {PCM_Rx_ICC_Loopback}*/
+    BUS32_TTS                       = 0xA100F01C,   /**< @h2xmle_name {BUS32_Tts}*/
+    BUS64_MEDIA_SUMX                = 0xA100F01D,   /**< @h2xmle_name {BUS64_Media_SUMX}*/
+    BUS05_ALERTS                    = 0xA100F01E,   /**< @h2xmle_name {BUS05_ALERTS}*/
+    LL_BUS00_MEDIA                  = 0xA100F01F,   /**< @h2xmle_name {LL_BUS00_Media}*/
+    LL_BUS01_SYS_NOTIFICATION       = 0xA100F020,   /**< @h2xmle_name {LL_BUS01_Sys_Notification}*/
+    LL_BUS02_NAV_GUIDANCE           = 0xA100F021,   /**< @h2xmle_name {LL_BUS02_Nav_Guidance}*/
+    LL_BUS03_PHONE                  = 0xA100F022,   /**< @h2xmle_name {LL_BUS03_Phone}*/
+    LL_BUS32_TTS                    = 0xA100F023,   /**< @h2xmle_name {LL_BUS32_Tts}*/
 };
 
 /**
@@ -323,6 +338,8 @@ enum Key_Values_DevicePP_Rx {
     DEVICEPP_RX_BTSINK                  = 0xAC00000C,   /**< @h2xmle_name {Device_PP_RX_BtSink} @h2xmle_description {BT Sink Device PP RX}*/
     DEVICEPP_RX_HAPTICS_GENERATOR       = 0xAC00000D,   /**< @h2xmle_name {Haptics_generator} @h2xmle_description {Haptics_gen}*/
     DEVICEPP_RX_VOIP_RVE                = 0xAC00000E,   /**< @h2xmle_name {Devicepp_rx_voip_rve} @h2xmle_description {Voip Call RVE}*/
+    DEVICEPP_RX_A2B1_DEFAULT            = 0xAC00000F,   /**< @h2xmle_name {DevicePP_RX_A2B1_Default} @h2xmle_description {A2b1 default}*/
+    DEVICEPP_RX_A2B2_DEFAULT            = 0xAC000010,   /**< @h2xmle_name {DevicePP_RX_A2B2_Default} @h2xmle_description {A2b2 default}*/
 };
 
 /**
@@ -387,6 +404,8 @@ enum Key_Values_DevicePP_Tx {
     DEVICEPP_TX_FLUENCE_SMECNS_OFFLOAD          = 0xAD000036,   /**< @h2xmle_name {Fluence_SEMCNS_Offload} @h2xmle_description {Single mic ECNS offload}*/
     DEVICEPP_TX_VOIP_FLUENCE_NN_PLUS            = 0xAD000037,   /**< @h2xmle_name {Voip_Fluence_NN_Plus} @h2xmle_description {Fluence NN plus in Voip call ; multi mic (FAI 6.0). }*/
     DEVICEPP_TX_AUDIO_FLUENCE_NN_PLUS           = 0xAD000038,   /**< @h2xmle_name {Audio_Fluence_NN_Plus} @h2xmle_description {Fluence NN plus in Audio Record ; multi mic (FAI6.0)}*/
+    DEVICEPP_TX_A2B1_DEFAULT                    = 0xAD000039,   /**< @h2xmle_name {A2B1_Default} @h2xmle_description {A2b1 mic}*/
+    DEVICEPP_TX_A2B2_DEFAULT                    = 0xAD00003A,   /**< @h2xmle_name {A2B2_Default} @h2xmle_description {A2b2 mic}*/
 };
 
 /**
@@ -458,6 +477,9 @@ enum Key_Values_StreamTX {
     ULTRASOUND_CAPTURE          = 0xB1000013,   /**< @h2xmle_name {Ultrasound_Capture} @h2xmle_description {This is added to change the legacy ultrasound TX subgraph to stream type.}*/
     ASR                         = 0xB1000014,   /**< @h2xmle_name {ASR} @h2xmle_description {This stream type will be used by ASR use case}*/
     CALL_TRANSLATION_TX         = 0xB1000015,   /**< @h2xmle_name {Call_Translation_Tx} @h2xmle_description {For Call Translation Tx use case with Voice and VoIP.}*/
+    BUS04_INPUT                 = 0xB100F001,   /**< @h2xmle_name {BUS04_Input}*/
+    BUS09_INPUT_FRONT_PASSENGER = 0xB100F002,   /**< @h2xmle_name {BUS09_Input_Front_Passenger}*/
+    BUS17_INPUT_REAR_SEAT       = 0xB100F003,   /**< @h2xmle_name {BUS17_Input_Rear_Seat}*/
 };
 
 /**
