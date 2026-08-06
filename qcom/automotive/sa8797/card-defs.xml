@@ -107,6 +107,250 @@
     </pcm-device>
 
     <pcm-device>
+        <id>107</id>
+        <name>VOICEMMODE2p</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>1</playback>
+            <capture>0</capture>
+            <session_mode>1</session_mode>
+        </props>
+    </pcm-device>
+    <pcm-device>
+        <id>108</id>
+        <name>VOICEMMODE1c</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>0</playback>
+            <capture>1</capture>
+            <session_mode>1</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>109</id>
+        <name>VOICEMMODE2c</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>0</playback>
+            <capture>1</capture>
+            <session_mode>1</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>110</id>
+        <name>PCM110</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>1</playback>
+            <capture>0</capture>
+            <session_mode>0</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>111</id>
+        <name>PCM111</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>0</playback>
+            <capture>1</capture>
+            <session_mode>0</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>112</id>
+        <name>PCM112</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>0</playback>
+            <capture>1</capture>
+            <session_mode>0</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>113</id>
+        <name>PCM113</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>0</playback>
+            <capture>1</capture>
+            <session_mode>2</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>114</id>
+        <name>PCM114</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>1</playback>
+            <capture>0</capture>
+            <session_mode>2</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>115</id>
+        <name>PCM115</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>0</playback>
+            <capture>1</capture>
+            <session_mode>0</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>116</id>
+        <name>PCM116</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <capture>1</capture>
+            <session_mode>3</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>117</id>
+        <name>PCM117</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>1</playback>
+            <capture>0</capture>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>118</id>
+        <name>PCM118</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>0</playback>
+            <capture>1</capture>
+            <session_mode>1</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>119</id>
+        <name>ExtEC119</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>0</playback>
+            <capture>1</capture>
+            <session_mode>1</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>120</id>
+        <name>PCM120</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>0</playback>
+            <capture>1</capture>
+            <session_mode>1</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>121</id>
+        <name>PCM121</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>0</playback>
+            <capture>1</capture>
+            <session_mode>1</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>122</id>
+        <name>PCM122</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>1</playback>
+            <capture>0</capture>
+            <session_mode>1</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>123</id>
+        <name>PCM123</name>
+        <pcm_plugin>
+            <so-name>libagm_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>1</playback>
+            <capture>0</capture>
+            <session_mode>1</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>124</id>
+        <name>PCM124</name>
+        <pcm_plugin>
+            <so-name>libqavb_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>1</playback>
+            <capture>0</capture>
+            <session_mode>3</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>125</id>
+        <name>PCM125</name>
+        <pcm_plugin>
+            <so-name>libqavb_fe_pcm_plugin.so</so-name>
+        </pcm_plugin>
+        <props>
+            <playback>1</playback>
+            <capture>1</capture>
+            <session_mode>3</session_mode>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
         <id>200</id>
         <name>PCM_RT_PROXY-RX-2</name>
         <props>
@@ -117,6 +361,190 @@
     <pcm-device>
         <id>201</id>
         <name>PCM_RT_PROXY-TX-2</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>202</id>
+        <name>TDM-LPAIF-TX-PRIMARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>203</id>
+        <name>TDM-LPAIF-TX-TERTIARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>204</id>
+        <name>TDM-LPAIF_AUD-RX-PRIMARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>205</id>
+        <name>TDM-LPAIF_AUD-TX-PRIMARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>206</id>
+        <name>TDM-LPAIF_RXTX-RX-PRIMARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>207</id>
+        <name>TDM-LPAIF_RXTX-TX-PRIMARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>208</id>
+        <name>TDM-LPAIF-RX-PRIMARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>209</id>
+        <name>TDM-LPAIF_SDR-RX-PRIMARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>210</id>
+        <name>TDM-LPAIF_SDR-RX-QUATERNARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>211</id>
+        <name>TDM-LPAIF_SDR-RX-QUINARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>212</id>
+        <name>TDM-LPAIF_SDR-RX-SECONDARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>213</id>
+        <name>TDM-LPAIF_SDR-RX-TERTIARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>214</id>
+        <name>TDM-LPAIF_SDR-TX-PRIMARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>215</id>
+        <name>TDM-LPAIF_SDR-TX-QUATERNARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>216</id>
+        <name>TDM-LPAIF_SDR-TX-QUINARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>217</id>
+        <name>TDM-LPAIF_SDR-TX-SECONDARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>218</id>
+        <name>TDM-LPAIF_SDR-TX-TERTIARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>219</id>
+        <name>TDM-LPAIF_VA-RX-PRIMARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>220</id>
+        <name>TDM-LPAIF_VA-TX-PRIMARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>221</id>
+        <name>TDM-LPAIF_WSA-RX-PRIMARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>222</id>
+        <name>TDM-LPAIF_WSA-TX-PRIMARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>223</id>
+        <name>TDM-LPAIF_WSA2-RX-PRIMARY</name>
+        <props>
+            <backend>1</backend>
+        </props>
+    </pcm-device>
+
+    <pcm-device>
+        <id>224</id>
+        <name>TDM-LPAIF_WSA2-TX-PRIMARY</name>
         <props>
             <backend>1</backend>
         </props>
