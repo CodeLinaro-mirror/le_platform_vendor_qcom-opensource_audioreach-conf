@@ -7,7 +7,7 @@
 # Requires autoconf tool later than 2.61
 AC_PREREQ(2.69)
 # Initialize the acdbdata package version 1.0.0
-AC_INIT([acdbdata],1.0.0)
+AC_INIT([acdbdata], [1.0.0])
 # Does not strictly follow GNU Coding standards
 AM_INIT_AUTOMAKE([-Wall -Werror foreign subdir-objects])
 
@@ -30,16 +30,11 @@ AC_ARG_WITH([sa8797],
 # Define conditional for automotive support
 AM_CONDITIONAL([SA8797], [test "x$with_sa8797" = "xyes"])
 
-AC_CONFIG_FILES([ \
-        Makefile \
-        ])
+AC_CONFIG_FILES([Makefile])
 
 # Only generate sa8797 files if --with-sa8797 is specified
 AS_IF([test "x$with_sa8797" = "xyes"], [
-    AC_CONFIG_FILES([
-        sa8797/Makefile
-        sa8797/config.pc
-    ])
+    AC_CONFIG_FILES([tinyalsa/sa8797/config.pc])
 ])
 
 AC_OUTPUT
