@@ -14,8 +14,10 @@ if gen5
 # ALSA UCM usecase
 alsaucmvirt_DATA += \
     alsalib/gen5/agmvirtualsndcard_pp.conf \
-    alsalib/gen5/A2BPlayback.conf \
-    alsalib/gen5/A2BRecord.conf \
+    alsalib/gen5/A2B2Playback.conf \
+    alsalib/gen5/A2B1Playback.conf \
+    alsalib/gen5/A2B2Record.conf \
+    alsalib/gen5/A2B1Record.conf \
     alsalib/gen5/ADCRecord.conf \
     alsalib/gen5/DACPlayback.conf \
     alsalib/gen5/gain_0.conf \
@@ -39,11 +41,16 @@ EXTRA_DIST = tinyalsa/gen5/config.pc.in
 # metadata binary files
 metadatabindir = /etc/
 metadatabin_DATA = \
-    alsalib/gen5/metadata_bins/A2B_playback_device_md.bin \
-    alsalib/gen5/metadata_bins/A2B_playback_stream_md.bin \
-    alsalib/gen5/metadata_bins/A2B_record_device_md.bin \
-    alsalib/gen5/metadata_bins/A2B_record_stream_device_md.bin \
-    alsalib/gen5/metadata_bins/A2B_record_stream_md.bin \
+    alsalib/gen5/metadata_bins/A2B1_playback_device_md.bin \
+    alsalib/gen5/metadata_bins/A2B1_playback_stream_md.bin \
+    alsalib/gen5/metadata_bins/A2B2_playback_device_md.bin \
+    alsalib/gen5/metadata_bins/A2B2_playback_stream_md.bin \
+    alsalib/gen5/metadata_bins/A2B1_record_device_md.bin \
+    alsalib/gen5/metadata_bins/A2B1_record_stream_device_md.bin \
+    alsalib/gen5/metadata_bins/A2B1_record_stream_md.bin \
+    alsalib/gen5/metadata_bins/A2B2_record_device_md.bin \
+    alsalib/gen5/metadata_bins/A2B2_record_stream_device_md.bin \
+    alsalib/gen5/metadata_bins/A2B2_record_stream_md.bin \
     alsalib/gen5/metadata_bins/ADCDevice_md.bin \
     alsalib/gen5/metadata_bins/ADCStream_device_md.bin \
     alsalib/gen5/metadata_bins/ADCStream_md.bin \
